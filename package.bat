@@ -1,0 +1,1 @@
+pyinstaller -w addWatermark2pdf.spec
