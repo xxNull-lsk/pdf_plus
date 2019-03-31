@@ -3,8 +3,8 @@
 block_cipher = None
 
 
-a = Analysis(['addWatermark2pdf.py'],
-             pathex=['D:\\CodeProjects\\PDF_Plus_Watermark'],
+a = Analysis(['pdf_plus.py'],
+             pathex=['D:\\CodeProjects\\pdf_plus'],
              binaries=[],
              datas=[('./res', './res')],
              hiddenimports=[],
@@ -44,7 +44,7 @@ exe = EXE(pyz,
           a.zipfiles,
           a.datas,
           [],
-          name='addWatermark2pdf',
+          name='pdf_plus',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
